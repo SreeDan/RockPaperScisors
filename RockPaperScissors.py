@@ -1,7 +1,7 @@
 import random
 
 def close():
-    exit = input("Press space to close or enter tto play again")
+    exit = input("Press space to close or enter to play again")
     if exit == "k" or exit == "K":
         return 0
     if exit == "":
